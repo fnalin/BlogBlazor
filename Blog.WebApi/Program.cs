@@ -20,3 +20,8 @@ if (app.Environment.IsDevelopment())
 app.MapControllers();
 
 await app.RunAsync();
+
+
+// Repositories
+// WebApi Completa
+// Blazor

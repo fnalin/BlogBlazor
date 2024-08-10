@@ -6,7 +6,7 @@ networks:
   blog_network:
 services:
   sqlserver:
-    image: mcr.microsoft.com/azure-sql-edge:1.0.4
+    image: mcr.microsoft.com/azure-sql-edge:latest
     # If you really want to use MS SQL Server, uncomment the following line
     #image: mcr.microsoft.com/mssql/server
     restart: always
